@@ -1,0 +1,11 @@
+C:\Users\maic4\Documents\Visual Studio 2022\Miguel\Ex006\bin\Debug\Ex006.exe.config
+C:\Users\maic4\Documents\Visual Studio 2022\Miguel\Ex006\bin\Debug\Ex006.exe
+C:\Users\maic4\Documents\Visual Studio 2022\Miguel\Ex006\bin\Debug\Ex006.pdb
+C:\Users\maic4\Documents\Visual Studio 2022\Miguel\Ex006\obj\Debug\Ex006.csproj.AssemblyReference.cache
+C:\Users\maic4\Documents\Visual Studio 2022\Miguel\Ex006\obj\Debug\Ex006.csproj.SuggestedBindingRedirects.cache
+C:\Users\maic4\Documents\Visual Studio 2022\Miguel\Ex006\obj\Debug\Ex006.Home.resources
+C:\Users\maic4\Documents\Visual Studio 2022\Miguel\Ex006\obj\Debug\Ex006.Properties.Resources.resources
+C:\Users\maic4\Documents\Visual Studio 2022\Miguel\Ex006\obj\Debug\Ex006.csproj.GenerateResource.cache
+C:\Users\maic4\Documents\Visual Studio 2022\Miguel\Ex006\obj\Debug\Ex006.csproj.CoreCompileInputs.cache
+C:\Users\maic4\Documents\Visual Studio 2022\Miguel\Ex006\obj\Debug\Ex006.exe
+C:\Users\maic4\Documents\Visual Studio 2022\Miguel\Ex006\obj\Debug\Ex006.pdb
