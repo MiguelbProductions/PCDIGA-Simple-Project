@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex006
 {
-    internal class Computer : Article
+    internal class Computer : Product
     {
         public string storage_type, storage_model, ram_model, processor_model, graphiccard_model;
 

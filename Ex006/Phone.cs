@@ -6,13 +6,10 @@ using System.Threading.Tasks;
 
 namespace Ex006
 {
-    internal class Phone : Article
+    internal class Phone : Product
     {
-        public string model, brand;
         public int imei, androindVersion;
 
-        public string Model { get { return model; } set { model = value; } }
-        public string Brand { get { return brand; } set { brand = value; } }
         public int IMEI { get { return imei; } set { imei = value; } }
         public int AndroindVersion { get { return androindVersion; } set { androindVersion = value; } }
 

@@ -8,6 +8,7 @@ namespace Ex006
 {
     internal class Desktop : Computer
     {
-
+        string internalpowesupply_model, casebox_model;
+        bool watercoller;
     }
 }
