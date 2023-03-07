@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Ex006.Article">
+  <Class Name="Ex006.Product">
     <Position X="5.25" Y="1" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAABAAAAAQAgAAAAIAAAAAQAEAAEAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Article.cs</FileName>
+      <FileName>Product.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Ex006.Phone">
@@ -29,14 +29,14 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Ex006.Laptop">
-    <Position X="6.5" Y="10" Width="1.5" />
+    <Position X="7.75" Y="10" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Laptop.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Ex006.Desktop">
-    <Position X="4" Y="10" Width="1.5" />
+    <Position X="2.25" Y="10.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Desktop.cs</FileName>

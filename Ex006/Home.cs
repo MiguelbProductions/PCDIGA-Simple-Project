@@ -17,9 +17,11 @@ namespace Ex006
             InitializeComponent();
         }
 
-        private void Home_Load(object sender, EventArgs e)
+        private void ComputerBox_Click(object sender, EventArgs e)
         {
+            new BuyItems("Computadores > Desktop").Show();
 
+            this.Hide();
         }
     }
 }

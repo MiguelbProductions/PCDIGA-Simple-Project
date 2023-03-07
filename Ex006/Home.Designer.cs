@@ -30,42 +30,42 @@
         {
             this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.Login_MenuStrip = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.registerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.logInToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.HeaSetBox = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.PhoneBox = new System.Windows.Forms.PictureBox();
+            this.ComputerBox = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.Login_MenuStrip.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.HeaSetBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PhoneBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ComputerBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -78,27 +78,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(2060, 115);
             this.panel1.TabIndex = 0;
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Image = global::Ex006.Properties.Resources.Shop_Icon3;
-            this.pictureBox9.Location = new System.Drawing.Point(1434, 23);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(73, 65);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox9.TabIndex = 9;
-            this.pictureBox9.TabStop = false;
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.ContextMenuStrip = this.Login_MenuStrip;
-            this.pictureBox10.Image = global::Ex006.Properties.Resources.Account_Icon;
-            this.pictureBox10.Location = new System.Drawing.Point(1345, 23);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(68, 65);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox10.TabIndex = 8;
-            this.pictureBox10.TabStop = false;
             // 
             // Login_MenuStrip
             // 
@@ -128,28 +107,18 @@
             this.logInToolStripMenuItem.Size = new System.Drawing.Size(167, 34);
             this.logInToolStripMenuItem.Text = "Log In";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Ex006.Properties.Resources.PCDIGA_Logo;
-            this.pictureBox1.Location = new System.Drawing.Point(43, 14);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(281, 80);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(52)))), ((int)(((byte)(52)))));
             this.panel2.Controls.Add(this.panel5);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.panel4);
-            this.panel2.Controls.Add(this.pictureBox8);
+            this.panel2.Controls.Add(this.HeaSetBox);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.panel3);
-            this.panel2.Controls.Add(this.pictureBox7);
+            this.panel2.Controls.Add(this.PhoneBox);
             this.panel2.Controls.Add(this.label1);
-            this.panel2.Controls.Add(this.pictureBox6);
+            this.panel2.Controls.Add(this.ComputerBox);
             this.panel2.Location = new System.Drawing.Point(-7, 411);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1985, 433);
@@ -163,16 +132,6 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(368, 294);
             this.panel5.TabIndex = 15;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::Ex006.Properties.Resources.HeadSets_Icon2;
-            this.pictureBox3.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(350, 294);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 6;
-            this.pictureBox3.TabStop = false;
             // 
             // label4
             // 
@@ -194,26 +153,6 @@
             this.panel4.Size = new System.Drawing.Size(448, 294);
             this.panel4.TabIndex = 12;
             // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::Ex006.Properties.Resources.Phones_Icon;
-            this.pictureBox4.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(448, 291);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 6;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Image = global::Ex006.Properties.Resources.Curved_Box2;
-            this.pictureBox8.Location = new System.Drawing.Point(1096, 31);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(417, 343);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 14;
-            this.pictureBox8.TabStop = false;
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -234,26 +173,6 @@
             this.panel3.Size = new System.Drawing.Size(448, 294);
             this.panel3.TabIndex = 9;
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Ex006.Properties.Resources.Computers_Icon1;
-            this.pictureBox2.Location = new System.Drawing.Point(3, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(448, 294);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 6;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = global::Ex006.Properties.Resources.Curved_Box2;
-            this.pictureBox7.Location = new System.Drawing.Point(568, 31);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(497, 343);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 11;
-            this.pictureBox7.TabStop = false;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -265,16 +184,6 @@
             this.label1.TabIndex = 10;
             this.label1.Text = "Computadores";
             // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::Ex006.Properties.Resources.Curved_Box2;
-            this.pictureBox6.Location = new System.Drawing.Point(41, 31);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(497, 343);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 7;
-            this.pictureBox6.TabStop = false;
-            // 
             // pictureBox5
             // 
             this.pictureBox5.Image = global::Ex006.Properties.Resources.HomeTop_Img;
@@ -284,6 +193,98 @@
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 2;
             this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::Ex006.Properties.Resources.HeadSets_Icon2;
+            this.pictureBox3.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(350, 294);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 6;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::Ex006.Properties.Resources.Phones_Icon;
+            this.pictureBox4.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(448, 291);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 6;
+            this.pictureBox4.TabStop = false;
+            // 
+            // HeaSetBox
+            // 
+            this.HeaSetBox.Image = global::Ex006.Properties.Resources.Curved_Box2;
+            this.HeaSetBox.Location = new System.Drawing.Point(1096, 31);
+            this.HeaSetBox.Name = "HeaSetBox";
+            this.HeaSetBox.Size = new System.Drawing.Size(417, 343);
+            this.HeaSetBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.HeaSetBox.TabIndex = 14;
+            this.HeaSetBox.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Ex006.Properties.Resources.Computers_Icon1;
+            this.pictureBox2.Location = new System.Drawing.Point(3, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(448, 294);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 6;
+            this.pictureBox2.TabStop = false;
+            // 
+            // PhoneBox
+            // 
+            this.PhoneBox.Image = global::Ex006.Properties.Resources.Curved_Box2;
+            this.PhoneBox.Location = new System.Drawing.Point(568, 31);
+            this.PhoneBox.Name = "PhoneBox";
+            this.PhoneBox.Size = new System.Drawing.Size(497, 343);
+            this.PhoneBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PhoneBox.TabIndex = 11;
+            this.PhoneBox.TabStop = false;
+            // 
+            // ComputerBox
+            // 
+            this.ComputerBox.Image = global::Ex006.Properties.Resources.Curved_Box2;
+            this.ComputerBox.Location = new System.Drawing.Point(41, 31);
+            this.ComputerBox.Name = "ComputerBox";
+            this.ComputerBox.Size = new System.Drawing.Size(497, 343);
+            this.ComputerBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ComputerBox.TabIndex = 7;
+            this.ComputerBox.TabStop = false;
+            this.ComputerBox.Click += new System.EventHandler(this.ComputerBox_Click);
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = global::Ex006.Properties.Resources.Shop_Icon3;
+            this.pictureBox9.Location = new System.Drawing.Point(1434, 23);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(73, 65);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox9.TabIndex = 9;
+            this.pictureBox9.TabStop = false;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.ContextMenuStrip = this.Login_MenuStrip;
+            this.pictureBox10.Image = global::Ex006.Properties.Resources.Account_Icon;
+            this.pictureBox10.Location = new System.Drawing.Point(1345, 23);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(68, 65);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox10.TabIndex = 8;
+            this.pictureBox10.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Ex006.Properties.Resources.PCDIGA_Logo;
+            this.pictureBox1.Location = new System.Drawing.Point(43, 14);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(281, 80);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // Home
             // 
@@ -296,24 +297,23 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Home";
             this.Text = "PC DIGA";
-            this.Load += new System.EventHandler(this.Home_Load);
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.Login_MenuStrip.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.HeaSetBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PhoneBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ComputerBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -326,16 +326,16 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox ComputerBox;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox PhoneBox;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.PictureBox HeaSetBox;
         private System.Windows.Forms.ContextMenuStrip Login_MenuStrip;
         private System.Windows.Forms.ToolStripMenuItem logInToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem registerToolStripMenuItem;
