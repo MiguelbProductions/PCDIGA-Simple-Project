@@ -37,7 +37,7 @@ namespace Ex006
 
                 Panel panelx = new Panel();
 
-                panelx.Size = new Size(232, 400 );
+                panelx.Size = new Size(232, 400);
                 panelx.Margin = new Padding(18, 45, 18, 0);
                 panelx.BackColor = Color.FromArgb(40, 40, 40);
 
@@ -56,6 +56,8 @@ namespace Ex006
                 Description.Text = infoArquivo.Name.Replace(".jpg", "");
                 Description.ForeColor = Color.White;
                 Description.Font = new Font("Arial", 20);
+                Description.Size = new Size(222, 50);
+                Description.Location = new Point(2, 230);
 
                 panelx.Controls.Add(Description);
                 panelx.Controls.Add(pictureBox);
