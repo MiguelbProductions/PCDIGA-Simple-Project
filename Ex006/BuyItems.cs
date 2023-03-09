@@ -8,11 +8,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
+using System.Xml;
+
 
 namespace Ex006
 {
     public partial class BuyItems : Form
     {
+        Product[] product_list = new Product[100];
+
         public BuyItems(string Title)
         {
             InitializeComponent();
@@ -22,18 +27,22 @@ namespace Ex006
 
         private void BuyItems_Load(object sender, EventArgs e)
         {
-            string pcfolder = "";
+            string folder = "";
 
             if (txt_producttitle.Text == "Computadores > Desktop")
             {
-                pcfolder = "Images\\Computers";
+                folder = "Images\\Computers";
             }
 
-            string[] arquivos = Directory.GetFiles(pcfolder, "*.jpg");
+            string[] imagens = Directory.GetFiles(folder, "*.jpg");
+            string[] infos = Directory.GetFiles(folder, "*.json");
 
-            foreach (string arquivo in arquivos)
+            int pos = 0;
+
+            foreach (string imagem in imagens)
             {
-                FileInfo infoArquivo = new FileInfo(arquivo);
+
+                FileInfo infoArquivo = new FileInfo(imagem);
 
                 Panel panelx = new Panel();
 
@@ -53,16 +62,27 @@ namespace Ex006
 
                 Label Description = new Label();
 
-                Description.Text = infoArquivo.Name.Replace(".jpg", "");
+                XmlDocument doc = new XmlDocument();
+                doc.Load(".\\Images\\Computers\\" + infoArquivo.Name.Replace(".jpg", ".xml"));
+
+                XmlNode node = doc.SelectSingleNode("//nome");
+                string name = node.Attributes["name"].Value;
+
+                Description.Text = name;
                 Description.ForeColor = Color.White;
-                Description.Font = new Font("Arial", 20);
-                Description.Size = new Size(222, 50);
-                Description.Location = new Point(2, 230);
+                Description.Font = new Font("Arial", 13);
+                Description.Size = new Size(232, 100);
+                Description.AutoEllipsis = true;
+               
+                Description.Location = new Point(10, 230);
 
                 panelx.Controls.Add(Description);
                 panelx.Controls.Add(pictureBox);
-            }            
-            
+
+                pos++;
+
+            }
+
         }
 
         private void goto_Home_Click(object sender, EventArgs e)

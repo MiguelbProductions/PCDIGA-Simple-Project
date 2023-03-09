@@ -215,6 +215,7 @@
             this.HeaSetBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.HeaSetBox.TabIndex = 14;
             this.HeaSetBox.TabStop = false;
+            this.HeaSetBox.Click += new System.EventHandler(this.HeaSetBox_Click);
             // 
             // label2
             // 
@@ -256,6 +257,7 @@
             this.PhoneBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PhoneBox.TabIndex = 11;
             this.PhoneBox.TabStop = false;
+            this.PhoneBox.Click += new System.EventHandler(this.PhoneBox_Click);
             // 
             // label1
             // 

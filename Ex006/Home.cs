@@ -23,5 +23,19 @@ namespace Ex006
 
             this.Hide();
         }
+
+        private void PhoneBox_Click(object sender, EventArgs e)
+        {
+            new BuyItems("Phones").Show();
+
+            this.Hide();
+        }
+
+        private void HeaSetBox_Click(object sender, EventArgs e)
+        {
+            new BuyItems("HeadSets").Show();
+
+            this.Hide();
+        }
     }
 }
