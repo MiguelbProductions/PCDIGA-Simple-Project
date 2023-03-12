@@ -16,78 +16,204 @@ namespace Ex006
 {
     public partial class BuyItems : Form
     {
-        Product[] product_list = new Product[100];
+        Product[][] product_list;
 
-        public BuyItems(string Title)
+        public BuyItems(string Title, Product[][] products_list)
         {
             InitializeComponent();
 
             txt_producttitle.Text = Title;
+
+            this.product_list = products_list;
         }
 
         private void BuyItems_Load(object sender, EventArgs e)
         {
-            string folder = "";
 
             if (txt_producttitle.Text == "Computadores > Desktop")
             {
-                folder = "Images\\Computers";
+                foreach (Desktop item in product_list[0])
+                {
+                    if (item != null)
+                    {
+                        Panel panelx = new Panel();
+
+                        panelx.Size = new Size(232, 405);
+                        panelx.Margin = new Padding(18, 45, 18, 0);
+                        panelx.BackColor = Color.FromArgb(40, 40, 40);
+
+                        itemsforsell_list.Controls.Add(panelx);
+
+                        PictureBox pictureBox = new PictureBox();
+
+                        pictureBox.ImageLocation = item.Image_location;
+
+                        pictureBox.Size = new Size(200, 200);
+                        pictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
+                        pictureBox.Location = new Point(16, 20);
+
+                        Label Description = new Label();
+
+                        XmlDocument doc = new XmlDocument();
+
+                        Description.Text = item.Name;
+                        Description.ForeColor = Color.White;
+                        Description.Font = new Font("Arial", 13);
+                        Description.Size = new Size(232, 100);
+                        Description.AutoEllipsis = true;
+                        Description.Location = new Point(10, 230);
+
+                        Label SubInformations = new Label();
+
+                        SubInformations.Text = item.Processor_model_resumed + " | " + item.Ram_model_resumed + " | " + item.Graphiccard_model_resumed + " | " + item.Storage_type + " " + item.storage_model_resumed;
+
+                        SubInformations.ForeColor = Color.White;
+                        SubInformations.Font = new Font("Arial", 7);
+                        SubInformations.Size = new Size(222, 100);
+                        SubInformations.AutoEllipsis = true;
+                        SubInformations.Location = new Point(10, 305);
+
+                        Label Price_Info = new Label();
+
+                        Price_Info.Text = item.price.ToString() + " €";
+                        Price_Info.ForeColor = Color.FromArgb(233, 100, 73);
+                        Price_Info.Font = new Font("Arial", 22, FontStyle.Bold);
+                        Price_Info.Size = new Size(222, 150);
+                        Price_Info.Location = new Point(10, 350);
+
+                        panelx.Controls.Add(Price_Info);
+                        panelx.Controls.Add(SubInformations);
+                        panelx.Controls.Add(Description);
+                        panelx.Controls.Add(pictureBox);
+                    }
+
+                }
             }
-
-            string[] imagens = Directory.GetFiles(folder, "*.jpg");
-            string[] infos = Directory.GetFiles(folder, "*.json");
-
-            int pos = 0;
-
-            foreach (string imagem in imagens)
+            else if (txt_producttitle.Text == "Phones")
             {
+                foreach (Phone item in product_list[1])
+                {
+                    if (item != null)
+                    {
+                        Panel panelx = new Panel();
 
-                FileInfo infoArquivo = new FileInfo(imagem);
+                        panelx.Size = new Size(232, 405);
+                        panelx.Margin = new Padding(18, 45, 18, 0);
+                        panelx.BackColor = Color.FromArgb(40, 40, 40);
 
-                Panel panelx = new Panel();
+                        itemsforsell_list.Controls.Add(panelx);
 
-                panelx.Size = new Size(232, 400);
-                panelx.Margin = new Padding(18, 45, 18, 0);
-                panelx.BackColor = Color.FromArgb(40, 40, 40);
+                        PictureBox pictureBox = new PictureBox();
 
-                itemsforsell_list.Controls.Add(panelx);
+                        pictureBox.ImageLocation = item.Image_location;
 
-                PictureBox pictureBox = new PictureBox();
+                        pictureBox.Size = new Size(200, 200);
+                        pictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
+                        pictureBox.Location = new Point(16, 20);
 
-                pictureBox.ImageLocation = infoArquivo.FullName;
+                        Label Description = new Label();
 
-                pictureBox.Size = new Size(200, 200);
-                pictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
-                pictureBox.Location = new Point(16, 20);
+                        XmlDocument doc = new XmlDocument();
 
-                Label Description = new Label();
+                        Description.Text = item.Name;
+                        Description.ForeColor = Color.White;
+                        Description.Font = new Font("Arial", 13);
+                        Description.Size = new Size(232, 100);
+                        Description.AutoEllipsis = true;
+                        Description.Location = new Point(10, 230);
 
-                XmlDocument doc = new XmlDocument();
-                doc.Load(".\\Images\\Computers\\" + infoArquivo.Name.Replace(".jpg", ".xml"));
+                        Label SubInformations = new Label();
 
-                XmlNode node = doc.SelectSingleNode("//nome");
-                string name = node.Attributes["name"].Value;
+                        SubInformations.Text = item.typeofphone + " | " + item.frontalcam_model + " | " + item.backcam_model + " | " + item.storagesize;
 
-                Description.Text = name;
-                Description.ForeColor = Color.White;
-                Description.Font = new Font("Arial", 13);
-                Description.Size = new Size(232, 100);
-                Description.AutoEllipsis = true;
-               
-                Description.Location = new Point(10, 230);
+                        SubInformations.ForeColor = Color.White;
+                        SubInformations.Font = new Font("Arial", 7);
+                        SubInformations.Size = new Size(222, 100);
+                        SubInformations.AutoEllipsis = true;
+                        SubInformations.Location = new Point(10, 305);
 
-                panelx.Controls.Add(Description);
-                panelx.Controls.Add(pictureBox);
+                        Label Price_Info = new Label();
 
-                pos++;
+                        Price_Info.Text = item.price.ToString() + " €";
+                        Price_Info.ForeColor = Color.FromArgb(233, 100, 73);
+                        Price_Info.Font = new Font("Arial", 22, FontStyle.Bold);
+                        Price_Info.Size = new Size(222, 150);
+                        Price_Info.Location = new Point(10, 360 );
 
+                        panelx.Controls.Add(Price_Info);
+                        panelx.Controls.Add(SubInformations);
+                        panelx.Controls.Add(Description);
+                        panelx.Controls.Add(pictureBox);
+                    }
+
+                }
             }
+            else if (txt_producttitle.Text == "HeadSets")
+            {
+                foreach (HeadSet item in product_list[2])
+                {
+                    if (item != null)
+                    {
+                        Panel panelx = new Panel();
 
+                        panelx.Size = new Size(232, 405);
+                        panelx.Margin = new Padding(18, 45, 18, 0);
+                        panelx.BackColor = Color.FromArgb(40, 40, 40);
+
+                        itemsforsell_list.Controls.Add(panelx);
+
+                        PictureBox pictureBox = new PictureBox();
+
+                        pictureBox.ImageLocation = item.Image_location;
+
+                        pictureBox.Size = new Size(200, 200);
+                        pictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
+                        pictureBox.Location = new Point(16, 20);
+
+                        Label Description = new Label();
+
+                        XmlDocument doc = new XmlDocument();
+
+                        Description.Text = item.Name;
+                        Description.ForeColor = Color.White;
+                        Description.Font = new Font("Arial", 13);
+                        Description.Size = new Size(232, 100);
+                        Description.AutoEllipsis = true;
+                        Description.Location = new Point(10, 230);
+
+                        Label SubInformations = new Label();
+
+                        SubInformations.Text = item.connection_type + " | Fones: " + item.frequency_fones + " Microfones: " + item.frequency_microfones + " | Fones: " + item.impedance_fones;
+
+                        SubInformations.ForeColor = Color.White;
+                        SubInformations.Font = new Font("Arial", 7);
+                        SubInformations.Size = new Size(222, 100);
+                        SubInformations.AutoEllipsis = true;
+                        SubInformations.Location = new Point(10, 305);
+
+                        Label Price_Info = new Label();
+
+                        Price_Info.Text = item.price.ToString() + " €";
+                        Price_Info.ForeColor = Color.FromArgb(233, 100, 73);
+                        Price_Info.Font = new Font("Arial", 22, FontStyle.Bold);
+                        Price_Info.Size = new Size(222, 150);
+                        Price_Info.Location = new Point(10, 350);
+
+                        panelx.Controls.Add(Price_Info);
+                        panelx.Controls.Add(SubInformations);
+                        panelx.Controls.Add(Description);
+                        panelx.Controls.Add(pictureBox);
+                    }
+
+                }
+            }
         }
 
         private void goto_Home_Click(object sender, EventArgs e)
         {
-            new Home().Show();
+            new Home(product_list).Show();
+
+            this.Close();
         }
     }
 }
