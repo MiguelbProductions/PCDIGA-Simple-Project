@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Computador>
-  <nome name="Computador Victus by HP 15L Gaming Desktop TG02-0026np" />
+  <name name="Portátil Lenovo IdeaPad Gaming 3 15ACH6-319 15.6" />
+  <price value="1074,71" />
   <storage_type name="SSD" />
-  <storage_model name="PCIe® NVMe™ de 512 GB" />
-  <ram_model name="16GB (2x8GB) DDR4 3200 MHz" />
-  <processor_model name="AMD Ryzen 7 5700G Octa-Core, 3.80 GHz com Turbo até 4.60 GHz, 20 MB Cache" />
-  <graphiccard_model name="AMD Radeon™ Graphics + NVIDIA® GeForce RTX™ 3060 12GB "/>
-  <internalpowesupply_model name="400W 80% Plus Gold" />
-  <chipset_model name="AMD B650" />
-  <watercoller name="Don't have" />
+  <storage_model name="SSD 512GB M.2 2280 PCIe 3.0x4 NVMe" resumed="512GB"/>
+  <ram_model name="8GB (1x8GB) DDR4-3200MHz" resumed="8GB RAM"/>
+  <processor_model name="AMD Ryzen™ 5 5600H Hexa-Core, 3.30 GHz com Turbo até 4.20 GHz, 19 MB Cache" resumed="AMD Ryzen 5 5600"/>
+  <graphiccard_model name="AMD Radeon™ Graphics + NVIDIA GeForce RTX 3050 4GB GDDR6 TGP 85W" resumed="GeForce RTX 3050"/>
+  <webcam_model name="HD 720p com Camera Shutter" />
+  <microfone_model name="High Definition (HD) Audio, Realtek ALC3287 codec" />
+  <monitor_model name="15.6 FHD (1920x1080) IPS 250nits Anti-glare, 60Hz, 45% NTSC, DC dimmer" />
+  <batery_model name="Li-ion de 45Wh" />
 </Computador>

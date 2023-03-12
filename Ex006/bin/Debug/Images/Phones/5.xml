@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computador>
+  <name name="Smartphone Samsung Galaxy S22 Ultra 5G 6.8 12GB/512GB" />
+  <price value="1199,90" />
+  <typeofphone name="Android" />
+  <frontalcam_model name="12MP, F2.2, Dual Pixel" />
+  <backcam_model name="200MP, F1.7, OIS, Super Quad Pixel" />
+  <battery_model name="5000 mAh"/>
+  <storagesize value="512GB"/>
+  <phoneVersion value="13" />
+</Computador>

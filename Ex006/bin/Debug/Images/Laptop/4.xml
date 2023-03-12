@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Computador>
-  <nome name="Computador Desktop Lenovo Ideacentre Gaming 5 17IAB7-903
-  " />
+  <name name="Portátil Asus TUF Gaming F15 15.6 FX506LH-50B15PS3" />
+  <price value="1399,00" />
   <storage_type name="SSD" />
-  <storage_model name="512GB M.2 2280 PCIe 4.0x4 NVMe" />
-  <ram_model name="8GB (1x8GB) UDIMM DDR4-3200MHz" />
-  <processor_model name="Intel® Core™ i5-12400F Hexa-Core, 2.50 GHz com turbo até 4.40 GHz, 18 MB Cache" />
-  <graphiccard_model name="NVIDIA GeForce RTX 3060 12GB GDDR6"/>
-  <internalpowesupply_model name="380W 92%" />
-  <chipset_model name="AMD B660" />
-  <watercoller name="Don't have" />
+  <storage_model name="SSD 512GB M.2 NVMe™ PCIe® 3.0" resumed="512GB"/>
+  <ram_model name="8GB (1x8GB) DDR4-2933MHz" resumed="8GB RAM"/>
+  <processor_model name="Intel® Core™ i5-10300H Quad-Core, 2.50 GHz com Turbo até 4.50 GHz, 8 MB Cache" resumed="Intel Core i5 10300"/>
+  <graphiccard_model name=" Intel® UHD Graphics + NVIDIA GeForce GTX 1650 4GB GDDR6" resumed="GeForce GTX 1650"/>
+  <webcam_model name="720P HD" />
+  <microfone_model name="Microfone embutido" />
+  <monitor_model name="15.6 (16:9) LED-backlit Full HD (1920x1080) 144Hz Anti-Glare IPS com 45% NTSC" />
+  <batery_model name="48WHrs, 3S1P, 3-cell Li-ion" />
 </Computador>

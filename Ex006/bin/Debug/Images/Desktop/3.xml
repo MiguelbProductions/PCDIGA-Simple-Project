@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Computador>
-  <nome name="Computador Victus by HP 15L Gaming Desktop TG02-0026np" />
+  <name name="Computador Victus by HP 15L Gaming Desktop TG02-0026np" />
+  <price value="1099,90" />
   <storage_type name="SSD" />
-  <storage_model name="PCIe® NVMe™ de 512 GB" />
-  <ram_model name="16GB (2x8GB) DDR4 3200 MHz" />
-  <processor_model name="AMD Ryzen 7 5700G Octa-Core, 3.80 GHz com Turbo até 4.60 GHz, 20 MB Cache" />
-  <graphiccard_model name="AMD Radeon™ Graphics + NVIDIA® GeForce RTX™ 3060 12GB "/>
+  <storage_model name="PCIe® NVMe™ de 512 GB" resumed="512GB"/>
+  <ram_model name="16GB (2x8GB) DDR4 3200 MHz" resumed="16GB RAM"/>
+  <processor_model name="AMD Ryzen 7 5700G Octa-Core, 3.80 GHz com Turbo até 4.60 GHz, 20 MB Cache" resumed="AMD Ryzen 7 5700G" />
+  <graphiccard_model name="AMD Radeon™ Graphics + NVIDIA® GeForce RTX™ 3060 12GB " resumed="GeForce RTX 3060"/>
   <internalpowesupply_model name="400W 80% Plus Gold" />
   <chipset_model name="AMD B650" />
   <watercoller name="Don't have" />

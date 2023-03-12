@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Computador>
-  <nome name="Computador Desktop Lenovo IdeaCentre 3 07IAB7-478" />
+  <name name="Portátil Asus TUF Gaming A15 15.6 FA507RR-R76B37CS1" />
+  <price value="799,00" />
   <storage_type name="SSD" />
-  <storage_model name="512GB M.2 2280 PCIe 4.0x4 NVMe" />
-  <ram_model name="8GB (1x8GB) DDR4-3200MHz" />
-  <processor_model name="Intel® Core™ i5-12400 Hexa-Core, 2.50 GHz com Turbo até 4.40 GHz, 18 MB Cache" />
-  <graphiccard_model name="Intel® UHD Graphics 730"/>
-  <internalpowesupply_model name="260W 85%" />
-  <chipset_model name="AMD B550" />
-  <watercoller name="Don't have" />
+  <storage_model name="SSD 512GB M.2 NVMe™ PCIe® 3.0" resumed="512GB" />
+  <ram_model name="16GB (2x8GB) DDR5-4800MHz" resumed="16GB RAM"/>
+  <processor_model name="AMD Ryzen™ 7 6800H Octa-Core, 3.20 GHz com Turbo até 4.70 GHz, 20 MB Cache" resumed="AMD Ryzen 7 6800"/>
+  <graphiccard_model name="AMD Radeon™ 680M + NVIDIA GeForce RTX 3070 8GB GDDR6" resumed="GeForce RTX 3070"/>
+  <webcam_model name="720P HD" />
+  <microfone_model name="Microfone embutido" />
+  <monitor_model name="15.6, FHD (1920 x 1080), 16:9, 300Hz, Nível IPS, Anti-Glare, NTSC 72%, SRGB 100%, Adaptive-Sync" />
+  <batery_model name="48WHrs, 3S1P, 3-cell Li-ion" />
 </Computador>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computador>
+  <name name="Headset Ewent EW3565 USB" />
+  <price value="16,90" />
+  <connection_type name="USB CONECTION" />
+  <frequency fones="20-20000 Hz" microphones="Unavaliable" />
+  <impedance fones="32 Ω" microphones="Unavaliable" />
+</Computador>

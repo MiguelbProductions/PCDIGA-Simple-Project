@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computador>
+  <name name="Headset HyperX Cloud II 7.1 Preto/Vermelho" />
+  <price value="79,90" />
+  <connection_type name="USB Conection" />
+  <frequency fones="15Hz–25000 Hz" microphones="50–18000 Hz" />
+  <impedance fones="60 Ω" microphones="2.2 kΩ" />
+</Computador>

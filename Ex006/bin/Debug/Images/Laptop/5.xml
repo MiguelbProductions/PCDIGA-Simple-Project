@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Computador>
-  <nome name="Computador Victus by HP 15L Gaming Desktop TG02-0016np" />
+  <name name="Portátil Lenovo Legion 5 (6ª Geração) 15ACH6-976 15.6" />
+  <price value="1099,00" />
   <storage_type name="SSD" />
-  <storage_model name="512GB M.2 2280 PCIe 4.0x4 NVMe" />
-  <ram_model name="8GB (1x8GB) DDR4-3200MHz" />
-  <processor_model name="Intel® Core™ i5-12400 Hexa-Core, 2.50 GHz com Turbo até 4.40 GHz, 18 MB Cache" />
-  <graphiccard_model name="Intel® UHD Graphics 730"/>
-  <internalpowesupply_model name="260W 85%" />
-  <chipset_model name="AMD B550" />
-  <watercoller name="Don't have" />
+  <storage_model name="SSD 512GB M.2 2242 PCIe 3.0x4 NVMe" resumed="512GB"/>
+  <ram_model name="16GB (2x8GB) DDR4 3200 MHz" resumed="16GB RAM"/>
+  <processor_model name="AMD Ryzen™ 7 5800H Octa-Core, 3.20 GHz com Turbo até 4.40 GHz, 20 MB Cache" resumed="AMD Ryzen 7 5800"/>
+  <graphiccard_model name="AMD Radeon Graphics + NVIDIA GeForce RTX 3060 6GB GDDR6 TGP 130W" resumed="GeForce RTX 3060"/>
+  <webcam_model name="Câmara HD 720p com microfone integrado" />
+  <microfone_model name="1 x headphone / microphone combo jack (3.5mm)" />
+  <monitor_model name="15.6 FHD (1920x1080) IPS 300nits Anti-glare, 165Hz, 100% sRGB, Dolby Vision, Free-Sync, G-Sync, DC dimmer" />
+  <batery_model name="60Wh" />
 </Computador>

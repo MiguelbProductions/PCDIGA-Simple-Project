@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computador>
+  <name name="Smartphone Apple iPhone 14 Pro 6.1 256GB Preto Sideral"/>
+  <price value="1399,00" />
+  <typeofphone name="Iphone" />
+  <frontalcam_model name="Câmara Frontal de 12 MP" />
+  <backcam_model name="Câmara Traseira de 48 MP com resolução até 4x maior" />
+  <battery_model name="3200mAh"/>
+  <storagesize value="256 GB" />
+  <phoneVersion value="16" />
+</Computador>

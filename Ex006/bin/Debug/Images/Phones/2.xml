@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computador>
+  <name name="Smartphone Apple iPhone 13 6.1 128GB Meia-Noite" />
+  <price value="914,00" />
+  <typeofphone name="Iphone" />
+  <frontalcam_model name="Câmara de 12 MP" />
+  <backcam_model name="Câmara Principal de 48 MP com resolução até 4x maior" />
+  <battery_model name="3.227 mAh"/>
+  <storagesize value="256 GB" />
+  <phoneVersion value="15" />
+</Computador>

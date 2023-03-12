@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computador>
+  <name name="Smartphone Apple iPhone 11 6.1 128GB Branco" />
+  <price value="599,00" />
+  <typeofphone name="Iphone" />
+  <frontalcam_model name="Câmara de 12 MP" />
+  <backcam_model name="Câmara Principal de 48 MP com resolução até 4x maior" />
+  <battery_model name="3046 mAh"/>
+  <storagesize value="128GB"/>
+  <phoneVersion value="13" />
+</Computador>

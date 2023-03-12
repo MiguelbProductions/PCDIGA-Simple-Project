@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computador>
+  <name name="Headset Logitech G535 Lightspeed Wireless Gaming Preto  " />
+  <price value="96,90" />
+  <connection_type name="RECEIVER USB" />
+  <frequency fones="20-20000 Hz" microphones="100-10000 Hz" />
+  <impedance fones="36 Ω" microphones="Unavaliable" />
+</Computador>

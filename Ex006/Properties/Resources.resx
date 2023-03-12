@@ -121,14 +121,17 @@
   <data name="Shop_Icon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\Images\Shop_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Shop_Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\Images\Shop_Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="PCDIGA_Logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Images\PCDIGA_Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Phones_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\Images\Phones_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Shop_Icon3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\Images\Shop_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bars" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Images\bars.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shop_Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Images\Shop_Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Curved_Box2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\Images\Curved_Box2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,6 +154,9 @@
   <data name="Shop_Icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\Images\Shop_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Shop_Icon3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Images\Shop_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Computers_Icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\Images\Computers_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -163,7 +169,7 @@
   <data name="PCDIGA_Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\Images\PCDIGA_Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PCDIGA_Logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\Images\PCDIGA_Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Images\Close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Computador>
-  <nome name="Computador Victus by HP 15L Gaming Desktop TG02-0016np" />
+  <name name="Computador Victus by HP 15L Gaming Desktop TG02-0016np" />
+  <price value="849,90" />
   <storage_type name="SSD" />
-  <storage_model name="512GB M.2 2280 PCIe 4.0x4 NVMe" />
-  <ram_model name="8GB (1x8GB) DDR4-3200MHz" />
-  <processor_model name="Intel® Core™ i5-12400 Hexa-Core, 2.50 GHz com Turbo até 4.40 GHz, 18 MB Cache" />
-  <graphiccard_model name="Intel® UHD Graphics 730"/>
+  <storage_model name="512GB M.2 2280 PCIe 4.0x4 NVMe" resumed="512GB"/>
+  <ram_model name="8GB (1x8GB) DDR4-3200MHz" resumed="8GB RAM"/>
+  <processor_model name="Intel® Core™ i5-12400 Hexa-Core, 2.50 GHz com Turbo até 4.40 GHz, 18 MB Cache" resumed="Intel Core I5 12400"/>
+  <graphiccard_model name="Intel® UHD Graphics 730" resumed="UHD Graphics 730"/>
   <internalpowesupply_model name="260W 85%" />
   <chipset_model name="AMD B550" />
   <watercoller name="Don't have" />
