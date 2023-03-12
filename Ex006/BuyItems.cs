@@ -91,7 +91,7 @@ namespace Ex006
             }
             else if (txt_producttitle.Text == "Phones")
             {
-                foreach (Phone item in product_list[1])
+                foreach (Phone item in product_list[2])
                 {
                     if (item != null)
                     {
@@ -150,7 +150,7 @@ namespace Ex006
             }
             else if (txt_producttitle.Text == "HeadSets")
             {
-                foreach (HeadSet item in product_list[2])
+                foreach (HeadSet item in product_list[3])
                 {
                     if (item != null)
                     {
@@ -209,11 +209,56 @@ namespace Ex006
             }
         }
 
-        private void goto_Home_Click(object sender, EventArgs e)
+        private void open_bar_Click(object sender, EventArgs e)
+        {
+            ProductsBar_List.Visible = true;
+        }
+
+        private void close_productslist_Click(object sender, EventArgs e)
+        {
+            ProductsBar_List.Visible = false;
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
         {
             new Home(product_list).Show();
 
             this.Close();
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+            new Home(product_list).Show();
+
+            this.Close();
+        }
+
+        private void GotoDesktopBox_Click(object sender, EventArgs e)
+        {
+            new BuyItems("Computadores > Desktop", this.product_list).Show();
+
+            this.Hide();
+        }
+
+        private void GotoLaptopBox_Click(object sender, EventArgs e)
+        {
+            new BuyItems("Computadores > Laptop", this.product_list).Show();
+
+            this.Hide();
+        }
+
+        private void GotoPhoneBox_Click(object sender, EventArgs e)
+        {
+            new BuyItems("Phones", this.product_list).Show();
+
+            this.Hide();
+        }
+
+        private void GotoHeadSets_Click(object sender, EventArgs e)
+        {
+            new BuyItems("HeadSets", this.product_list).Show();
+
+            this.Hide();
         }
     }
 }

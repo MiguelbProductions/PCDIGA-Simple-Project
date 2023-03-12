@@ -227,6 +227,14 @@ namespace Ex006
             }
         }
 
+        private void Home_Load(object sender, EventArgs e)
+        {
+            label3.ForeColor = Color.White;
+            label8.ForeColor = Color.White;
+            label9.ForeColor = Color.White;
+            label6.ForeColor = Color.White;
+        }
+
         private void ComputerBox_Click(object sender, EventArgs e)
         {
             new BuyItems("Computadores > Desktop", this.products_list).Show();
@@ -242,6 +250,44 @@ namespace Ex006
         }
 
         private void HeaSetBox_Click(object sender, EventArgs e)
+        {
+            new BuyItems("HeadSets", this.products_list).Show();
+
+            this.Hide();
+        }
+
+        private void open_bar_Click(object sender, EventArgs e)
+        {
+            ProductsBar_List.Visible = true;
+        }
+
+        private void close_productslist_Click(object sender, EventArgs e)
+        {
+            ProductsBar_List.Visible = false;
+        }
+
+        private void GotoDesktopBox_Click(object sender, EventArgs e)
+        {
+            new BuyItems("Computadores > Desktop", this.products_list).Show();
+
+            this.Hide();
+        }
+
+        private void GotoLaptopBox_Click(object sender, EventArgs e)
+        {
+            new BuyItems("Computadores > Laptop", this.products_list).Show();
+
+            this.Hide();
+        }
+
+        private void GotoPhoneBox_Click(object sender, EventArgs e)
+        {
+            new BuyItems("Phones", this.products_list).Show();
+
+            this.Hide();
+        }
+
+        private void GotoHeadSets_Click(object sender, EventArgs e)
         {
             new BuyItems("HeadSets", this.products_list).Show();
 

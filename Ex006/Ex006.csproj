@@ -135,5 +135,20 @@
   <ItemGroup>
     <None Include="bin\Debug\Images\bars.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\Close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\Desktop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\Laptop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\Phone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\HeadSet.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
