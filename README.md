@@ -1,2 +1,1 @@
-# Basic PC DIGA Project in C# .NET
- 
+# PC DIGA PROJECT
