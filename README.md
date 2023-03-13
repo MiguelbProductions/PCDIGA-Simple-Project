@@ -1,1 +1,1 @@
-# PC DIGA PROJECT
+# Electronics sales company [BASED ON PC DIGA TEMPLATE]
