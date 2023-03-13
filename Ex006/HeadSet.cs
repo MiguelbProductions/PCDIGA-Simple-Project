@@ -17,7 +17,6 @@ namespace Ex006
             this.impedance_fones = impedance_fones;
             this.frequency_microfones = frequency_microfones;
             this.impedance_microfones = impedance_microfones;
-            this.price = price;
         }
 
         public string Connection_type { get { return connection_type; } set { connection_type = value; } }

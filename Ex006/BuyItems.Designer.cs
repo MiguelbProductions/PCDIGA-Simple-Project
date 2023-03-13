@@ -28,7 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.Btn_SearchbyFilter = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txt_MidPriceFilter = new System.Windows.Forms.Label();
+            this.txt_MaxPriceFilter = new System.Windows.Forms.Label();
+            this.txt_MinPriceFilter = new System.Windows.Forms.Label();
+            this.pricefilter = new System.Windows.Forms.TrackBar();
+            this.label1 = new System.Windows.Forms.Label();
             this.txt_producttitle = new System.Windows.Forms.Label();
             this.itemsforsell_list = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -53,6 +61,12 @@
             this.label5 = new System.Windows.Forms.Label();
             this.close_productslist = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.Login_MenuStrip = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.registerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.logInToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.panel2.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pricefilter)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.open_bar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
@@ -70,15 +84,102 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.close_productslist)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            this.Login_MenuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.panel2.Controls.Add(this.Btn_SearchbyFilter);
+            this.panel2.Controls.Add(this.groupBox1);
+            this.panel2.Controls.Add(this.label1);
             this.panel2.Location = new System.Drawing.Point(27, 225);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(355, 843);
             this.panel2.TabIndex = 2;
+            // 
+            // Btn_SearchbyFilter
+            // 
+            this.Btn_SearchbyFilter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.Btn_SearchbyFilter.FlatAppearance.BorderSize = 0;
+            this.Btn_SearchbyFilter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_SearchbyFilter.Font = new System.Drawing.Font("Microsoft Sans Serif", 17.8F);
+            this.Btn_SearchbyFilter.ForeColor = System.Drawing.Color.White;
+            this.Btn_SearchbyFilter.Location = new System.Drawing.Point(26, 555);
+            this.Btn_SearchbyFilter.Name = "Btn_SearchbyFilter";
+            this.Btn_SearchbyFilter.Size = new System.Drawing.Size(304, 52);
+            this.Btn_SearchbyFilter.TabIndex = 2;
+            this.Btn_SearchbyFilter.Text = "Search";
+            this.Btn_SearchbyFilter.UseVisualStyleBackColor = false;
+            this.Btn_SearchbyFilter.Click += new System.EventHandler(this.Btn_SearchbyFilter_Click);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.txt_MidPriceFilter);
+            this.groupBox1.Controls.Add(this.txt_MaxPriceFilter);
+            this.groupBox1.Controls.Add(this.txt_MinPriceFilter);
+            this.groupBox1.Controls.Add(this.pricefilter);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F);
+            this.groupBox1.ForeColor = System.Drawing.Color.White;
+            this.groupBox1.Location = new System.Drawing.Point(26, 79);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(304, 93);
+            this.groupBox1.TabIndex = 1;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Price";
+            // 
+            // txt_MidPriceFilter
+            // 
+            this.txt_MidPriceFilter.AutoSize = true;
+            this.txt_MidPriceFilter.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.8F);
+            this.txt_MidPriceFilter.Location = new System.Drawing.Point(131, 67);
+            this.txt_MidPriceFilter.Name = "txt_MidPriceFilter";
+            this.txt_MidPriceFilter.Size = new System.Drawing.Size(42, 15);
+            this.txt_MidPriceFilter.TabIndex = 3;
+            this.txt_MidPriceFilter.Text = "4125€";
+            this.txt_MidPriceFilter.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // txt_MaxPriceFilter
+            // 
+            this.txt_MaxPriceFilter.AutoSize = true;
+            this.txt_MaxPriceFilter.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.8F);
+            this.txt_MaxPriceFilter.Location = new System.Drawing.Point(251, 39);
+            this.txt_MaxPriceFilter.Name = "txt_MaxPriceFilter";
+            this.txt_MaxPriceFilter.Size = new System.Drawing.Size(42, 15);
+            this.txt_MaxPriceFilter.TabIndex = 2;
+            this.txt_MaxPriceFilter.Text = "7500€";
+            this.txt_MaxPriceFilter.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // txt_MinPriceFilter
+            // 
+            this.txt_MinPriceFilter.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.txt_MinPriceFilter.AutoSize = true;
+            this.txt_MinPriceFilter.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.8F);
+            this.txt_MinPriceFilter.Location = new System.Drawing.Point(15, 39);
+            this.txt_MinPriceFilter.Name = "txt_MinPriceFilter";
+            this.txt_MinPriceFilter.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txt_MinPriceFilter.Size = new System.Drawing.Size(35, 15);
+            this.txt_MinPriceFilter.TabIndex = 1;
+            this.txt_MinPriceFilter.Text = "750€";
+            this.txt_MinPriceFilter.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pricefilter
+            // 
+            this.pricefilter.Location = new System.Drawing.Point(46, 34);
+            this.pricefilter.Name = "pricefilter";
+            this.pricefilter.Size = new System.Drawing.Size(211, 56);
+            this.pricefilter.TabIndex = 0;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.8F);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(20, 18);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(89, 31);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Filters";
             // 
             // txt_producttitle
             // 
@@ -94,6 +195,7 @@
             // itemsforsell_list
             // 
             this.itemsforsell_list.AutoScroll = true;
+            this.itemsforsell_list.ForeColor = System.Drawing.Color.White;
             this.itemsforsell_list.Location = new System.Drawing.Point(418, 225);
             this.itemsforsell_list.Name = "itemsforsell_list";
             this.itemsforsell_list.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -132,9 +234,11 @@
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox9.TabIndex = 9;
             this.pictureBox9.TabStop = false;
+            this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
             // 
             // pictureBox10
             // 
+            this.pictureBox10.ContextMenuStrip = this.Login_MenuStrip;
             this.pictureBox10.Image = global::Ex006.Properties.Resources.Account_Icon;
             this.pictureBox10.Location = new System.Drawing.Point(1345, 23);
             this.pictureBox10.Name = "pictureBox10";
@@ -184,7 +288,6 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Enabled = false;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.8F, System.Drawing.FontStyle.Bold);
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(79, 13);
@@ -218,7 +321,6 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Enabled = false;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.8F, System.Drawing.FontStyle.Bold);
             this.label9.ForeColor = System.Drawing.Color.White;
             this.label9.Location = new System.Drawing.Point(79, 13);
@@ -253,7 +355,6 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Enabled = false;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.8F, System.Drawing.FontStyle.Bold);
             this.label8.ForeColor = System.Drawing.Color.White;
             this.label8.Location = new System.Drawing.Point(79, 13);
@@ -297,10 +398,9 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Enabled = false;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.8F, System.Drawing.FontStyle.Bold);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 21F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(79, 13);
+            this.label3.Location = new System.Drawing.Point(79, 10);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(171, 39);
             this.label3.TabIndex = 13;
@@ -350,6 +450,36 @@
             this.pictureBox7.TabStop = false;
             this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
             // 
+            // Login_MenuStrip
+            // 
+            this.Login_MenuStrip.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.Login_MenuStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.Login_MenuStrip.ImeMode = System.Windows.Forms.ImeMode.Off;
+            this.Login_MenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.registerToolStripMenuItem,
+            this.logInToolStripMenuItem});
+            this.Login_MenuStrip.Name = "Login_MenuStrip";
+            this.Login_MenuStrip.Size = new System.Drawing.Size(168, 72);
+            // 
+            // registerToolStripMenuItem
+            // 
+            this.registerToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.registerToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 13.2F, System.Drawing.FontStyle.Bold);
+            this.registerToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control;
+            this.registerToolStripMenuItem.Name = "registerToolStripMenuItem";
+            this.registerToolStripMenuItem.Size = new System.Drawing.Size(210, 34);
+            this.registerToolStripMenuItem.Text = "Register";
+            this.registerToolStripMenuItem.Click += new System.EventHandler(this.registerToolStripMenuItem_Click);
+            // 
+            // logInToolStripMenuItem
+            // 
+            this.logInToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 13.2F, System.Drawing.FontStyle.Bold);
+            this.logInToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control;
+            this.logInToolStripMenuItem.Name = "logInToolStripMenuItem";
+            this.logInToolStripMenuItem.Size = new System.Drawing.Size(210, 34);
+            this.logInToolStripMenuItem.Text = "Log In";
+            this.logInToolStripMenuItem.Click += new System.EventHandler(this.logInToolStripMenuItem_Click);
+            // 
             // BuyItems
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
@@ -360,10 +490,16 @@
             this.Controls.Add(this.itemsforsell_list);
             this.Controls.Add(this.txt_producttitle);
             this.Controls.Add(this.panel2);
+            this.ForeColor = System.Drawing.Color.White;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "BuyItems";
             this.Text = "BuyItems";
             this.Load += new System.EventHandler(this.BuyItems_Load);
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pricefilter)).EndInit();
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.open_bar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
@@ -386,6 +522,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.close_productslist)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            this.Login_MenuStrip.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -417,5 +554,15 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.PictureBox close_productslist;
         private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Label txt_MaxPriceFilter;
+        private System.Windows.Forms.Label txt_MinPriceFilter;
+        private System.Windows.Forms.TrackBar pricefilter;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button Btn_SearchbyFilter;
+        private System.Windows.Forms.Label txt_MidPriceFilter;
+        private System.Windows.Forms.ContextMenuStrip Login_MenuStrip;
+        private System.Windows.Forms.ToolStripMenuItem registerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem logInToolStripMenuItem;
     }
 }

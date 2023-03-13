@@ -52,6 +52,12 @@
     <Compile Include="BuyItems.Designer.cs">
       <DependentUpon>BuyItems.cs</DependentUpon>
     </Compile>
+    <Compile Include="BuySelectedItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuySelectedItem.Designer.cs">
+      <DependentUpon>BuySelectedItem.cs</DependentUpon>
+    </Compile>
     <Compile Include="Product.cs" />
     <Compile Include="Computer.cs" />
     <Compile Include="Desktop.cs" />
@@ -68,6 +74,9 @@
     <Compile Include="HeadSet.cs" />
     <EmbeddedResource Include="BuyItems.resx">
       <DependentUpon>BuyItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuySelectedItem.resx">
+      <DependentUpon>BuySelectedItem.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>

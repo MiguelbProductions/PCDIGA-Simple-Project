@@ -227,14 +227,6 @@ namespace Ex006
             }
         }
 
-        private void Home_Load(object sender, EventArgs e)
-        {
-            label3.ForeColor = Color.White;
-            label8.ForeColor = Color.White;
-            label9.ForeColor = Color.White;
-            label6.ForeColor = Color.White;
-        }
-
         private void ComputerBox_Click(object sender, EventArgs e)
         {
             new BuyItems("Computadores > Desktop", this.products_list).Show();
@@ -292,6 +284,21 @@ namespace Ex006
             new BuyItems("HeadSets", this.products_list).Show();
 
             this.Hide();
+        }
+
+        private void registerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Disponivel na proxima atualizaçãio (LOGIN AND COMPUTER UPDATE)", "Disponivel na proxima atualização");
+        }
+
+        private void logInToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Disponivel na proxima atualizaçãio (LOGIN AND COMPUTER UPDATE)", "Disponivel na proxima atualização");
+        }
+
+        private void pictureBox9_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Disponivel na proxima atualizaçãio (LOGIN AND COMPUTER UPDATE)", "Disponivel na proxima atualização");
         }
     }
 }

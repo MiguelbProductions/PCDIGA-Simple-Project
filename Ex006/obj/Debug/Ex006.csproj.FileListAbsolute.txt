@@ -21,3 +21,4 @@ C:\Users\maic4\Documents\GitHub\Basic-PC-DIGA-Project-in-C--.NET\Ex006\obj\Debug
 C:\Users\maic4\Documents\GitHub\Basic-PC-DIGA-Project-in-C--.NET\Ex006\obj\Debug\Ex006.exe
 C:\Users\maic4\Documents\GitHub\Basic-PC-DIGA-Project-in-C--.NET\Ex006\obj\Debug\Ex006.pdb
 C:\Users\maic4\Documents\GitHub\Basic-PC-DIGA-Project-in-C--.NET\Ex006\obj\Debug\Ex006.BuyItems.resources
+C:\Users\maic4\Documents\GitHub\Basic-PC-DIGA-Project-in-C--.NET\Ex006\obj\Debug\Ex006.BuySelectedItem.resources
