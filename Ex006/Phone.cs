@@ -19,13 +19,12 @@ namespace Ex006
             this.battery_model = battery_model;
             this.storagesize = storagesize;
             this.phoneVersion = phoneVersion;
-            this.price = price;
-
+    
         }
 
         public string Typeofphone { get { return typeofphone; } set { value = typeofphone; } }
         public string Frontalcam_model { get { return frontalcam_model; } set { value = frontalcam_model; } }
-        public string Backcam_model { get { return Backcam_model; } set { value = Backcam_model; } }
+        public string Backcam_model { get { return backcam_model; } set { value = backcam_model; } }
         public string Battery_model { get { return battery_model; } set { value = battery_model; } }
         public string Storagesize { get { return storagesize; } set { value = storagesize; } }
         public int PhoneVersion { get { return phoneVersion; } set { phoneVersion = value; } }
