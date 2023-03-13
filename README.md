@@ -1,2 +1,1 @@
-# Basic PC DIGA Project in C# .NET
- 
+# Electronics sales company [BASED ON PC DIGA TEMPLATE]
